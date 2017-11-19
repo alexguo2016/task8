@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no,
+width=device-width height=device-height">
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link href="index.css" rel="stylesheet"/>
+    <title>技能树</title>
+</head>
+<body>
+
+        <!--顶端header-->
+        <div class="container">
+            <div class="row">
+                <div class="hidden-xs col-sm-4">
+                    <span class="tel-num">咨询电话:010-59478634</span>
+                </div>
+                <div class="col-sm-8 text-right">
+                    <div class="a-with-img">
+                        <a class="wx" href="#"></a>
+                        <a class="qq" href="#"></a>
+                        <a class="wb" href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--导航栏-->
+        <nav class="navbar navbar-default mynav">
+            <div class="container">
+                <div class="navbar-header">
+                        <div class="headerleft">
+                            <img src="images/技能树title.png" />
+                        </div>
+                        <button type="button" class="navbar-toggle collaplsed"
+                                data-toggle="collapse" data-target="#navigation"
+                                aria-expanded="false">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navigation">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">首页</a></li>
+                            <li><a href="#">职业</a></li>
+                            <li><a href="#">推荐</a></li>
+                            <li><a href="#">关于</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- 原点计数 -->
+            <ol class="carousel-indicators margin-bottom-0 ">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            </ol>
+            <!-- 轮播图片 -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <!--<a href="" class="img-for-lunbo">-->
+                        <img class="img-for-lunbo" src="images/background.png">
+                    <!--</a>-->
+                </div>
+                <div class="item">
+                    <!--<a href="" class="img-for-lunbo">-->
+                        <img class="img-for-lunbo" src="images/background.png">
+                    <!--</a>-->
+                </div>
+                <div class="item">
+                    <!--<a href="" class="img-for-lunbo">-->
+                        <img class="img-for-lunbo" src="images/background.png">
+                    <!--</a>-->
+                </div>
+                <div class="item">
+                    <!--<a href="" class="">-->
+                        <img class="img-for-lunbo" src="images/background.png">
+                    <!--</a>-->
+                </div>
+            </div>
+            <!-- 左右箭头控制 -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div class="container" >
+        <!--主体内容-->
+        <div class="row">
+            <div class="col-sm-3">
+                <div>
+                    <img src="images/plane.png"/>
+                </div>
+                <h4>高效</h4>
+                <div class="this-text-left" >
+                    将五到七年的成长时间，缩短到一年到三年
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div>
+                    <img src="images/books.png"/>
+                </div>
+                <h4>规范</h4>
+                <div class="this-text-left" >
+                    标准的是实战教程，不会走弯路
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div>
+                    <img src="images/link.png"/>
+                </div>
+                <h4>人脉</h4>
+                <div class="this-text-left" >
+                    同班好友，同院学长，技术大师，入学就混入职脉圈，为以后铺平道路。
+                </div>
+            </div>
+            <div class="col-sm-3 result-show">
+                <div class="num">12400</div>
+                <div>累计在线学习人数</div>
+                <div class="num">12400</div>
+                <div>学员已经找到满意工作</div>
+            </div>
+        </div>
+        <h3>如何学习</h3>
+        <div class="row">
+            <div class="col-sm-3 this-flex-to-three-parls">
+                <img class="ahead-img" src="images/1.png"/>
+                <div class="this-text-left" >
+                    匹配你现在的个人情况寻找适合自己的岗位
+                </div>
+                <img class="after-img" src="images/to.png"/>
+            </div>
+            <div class="col-sm-3 this-flex-to-three-parls">
+                <img  class="ahead-img" src="images/2.png"/>
+                <div class="this-text-left" >
+                    了解职业前景薪金待遇，竞争压力等
+                </div>
+                <img class="after-img" src="images/to.png"/>
+            </div>
+            <div class="col-sm-3 this-flex-to-three-parls">
+                <img class="ahead-img" src="images/3.png"/>
+                <div class="this-text-left" >
+                    掌握行业内顶级技能
+                </div>
+                <img class="after-img" src="images/to.png"/>
+            </div>
+            <div class="col-sm-3 this-flex-to-three-parls">
+                <img class="ahead-img" src="images/4.png"/>
+                <div class="this-text-left" >
+                    查看职业目标任务
+                </div>
+                <img class="after-img" src="images/to.png"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 this-flex-to-three-parls">
+                <img class="ahead-img" src="images/5.png"/>
+                <div class="this-text-left" >
+                    参考学习资源，掌握技能点，逐个完成任务
+                </div>
+                <img class="after-img" src="images/to.png"/>
+            </div>
+            <div class="col-sm-3 this-flex-to-three-parls">
+                <img class="ahead-img" src="images/6.png"/>
+                <div class="this-text-left" >
+                    加入班级，和小伙伴们互相帮助，一块学习
+                </div>
+                <img class="after-img" src="images/to.png"/>
+            </div>
+            <div class="col-sm-3 this-flex-to-three-parls">
+                <img class="ahead-img" src="images/7.png"/>
+                <div class="this-text-left" >
+                    选择导师，一路引导，加速自己成长
+                </div>
+                <img class="after-img" src="images/to.png"/>
+            </div>
+            <div class="col-sm-3 this-flex-to-three-parls">
+                <img class="ahead-img" src="images/8.png"/>
+                <div class="this-text-left" >
+                    完成职业技能，升级业界大牛
+                </div>
+            </div>
+        </div>
+
+        <h3>优秀学员展示</h3>
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="images/per-1.png"/>
+                <h4>技术顾问：罗大佑</h4>
+                <div class="this-text-left" >
+                    百度技术总监，互联网基础服务领域，从事虚拟机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <img src="images/per-2.png"/>
+                <h4>技术顾问：罗大佑</h4>
+                <div class="this-text-left" >
+                    百度技术总监，互联网基础服务领域，从事虚拟机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <img src="images/per-3.png"/>
+                <h4>技术顾问：罗大佑</h4>
+                <div class="this-text-left" >
+                    百度技术总监，互联网基础服务领域，从事虚拟机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <img src="images/per-4.png"/>
+                <h4>技术顾问：罗大佑</h4>
+                <div class="this-text-left" >
+                    百度技术总监，互联网基础服务领域，从事虚拟机、云服务器、域名。曾任新网高级技术经理，负责技术研发、团队管理与建设。
+                </div>
+            </div>
+        </div>
+        <div class="dots">
+            <div class="dots-1"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="container">
+        <!--战略合作企业-->
+        <h3>战略合作企业</h3>
+        <div class="row" >
+            <div class="col-sm-3 this-for-showing-coops">
+                <img src="images/ali.png" />
+            </div>
+            <div class="col-sm-3 this-for-showing-coops">
+                <img src="images/ali.png" />
+            </div>
+            <div class="col-sm-3 this-for-showing-coops">
+                <img src="images/ali.png" />
+            </div>
+            <div class="col-sm-3 this-for-showing-coops">
+                <img src="images/ali.png" />
+            </div>
+        </div>
+    </div>
+    <div class="container hidden-xs">
+        <!--友情链接-->
+        <h3>友情链接</h3>
+
+        <ul class="sleeping-li">
+                <li><a href="#">手机软件</a></li>
+                <li><a href="#">找工作</a></li>
+                <li><a href="#">教师招聘</a></li>
+                <li><a href="#">手机软件</a></li>
+                <li><a href="#">手机软件</a></li>
+                <li><a href="#">找工作</a></li>
+                <li><a href="#">教师招聘</a></li>
+                <li><a href="#">手机软件</a></li>
+                <li><a href="#">手机软件</a></li>
+                <li><a href="#">找工作</a></li>
+        </ul>
+        <ul class="sleeping-li">
+            <li><a href="#">手机软件</a></li>
+            <li><a href="#">找工作</a></li>
+            <li><a href="#">教师招聘</a></li>
+            <li><a href="#">手机软件</a></li>
+            <li><a href="#">手机软件</a></li>
+            <li><a href="#">找工作</a></li>
+            <li><a href="#">教师招聘</a></li>
+            <li><a href="#">手机软件</a></li>
+            <li><a href="#">手机软件</a></li>
+            <li><a href="#">找工作</a></li>
+        </ul>
+    </div>
+    <div class="bot-nav">
+        <!--底部导航栏-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h6>
+                        技能树-改变你我
+                    </h6>
+                    <div>
+
+                    </div>
+                    <div>
+                        <a class="has-right-border bot-nav-inner" href="#">
+                            关于我们
+                        </a>
+                        <a class="has-right-border bot-nav-inner" href="#">
+                            联系我们
+                        </a>
+                        <a class="bot-nav-inner" href="#">
+                            合作企业
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6>
+                        旗下网站
+                    </h6>
+                    <div>
+                        <a class="bot-nav-inner" href="#">草船云孵化器</a>
+                        <a class="bot-nav-inner" href="#">最强IT特训营</a>
+                    </div>
+                    <div>
+                        <a class="bot-nav-inner" href="#">葡萄藤轻游戏</a>
+                        <a class="bot-nav-inner" href="#">桌游精灵</a>
+                    </div>
+                </div>
+                <div class="col-sm-2 text-right">
+                    <h6 >微信公众平台</h6>
+                    <img src="images/二维码.png"/>
+                </div>
+            </div>
+        </div>
+        <div class="this-the-last-bottom">
+            Copyright © 2015 北京葡萄藤信息技术有限公司 All Rights Reserved | 京ICP备15035574号-1
+        </div>
+    </div>
+</body>
+</html>

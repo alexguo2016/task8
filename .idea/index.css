@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:62.5%;
+}
+.a-with-img a{
+    width:26px;
+    height:26px;
+    display:inline-block;
+}
+.wx{
+    background:url("images/wx.png");
+}
+.qq{
+    background:url("images/qq.png");
+}
+.wb{
+    background:url("images/wb.png");
+}
+/*div>span{*/
+    /*color:#29b078;*/
+/*}*/
+
+.tel-num{
+    color:#29b078;
+}
+.mynav{
+    background-color: #29b078;
+}
+.headerleft{
+    display:inline-block;
+    height:50px;
+}
+.headerleft>img{
+    width:100%;height:100%;
+}
+.navbar{
+    border-radius:0;
+    margin:0;
+    border:none;
+}
+.navbar-default .navbar-nav>li>a{
+    color:#fff;
+    height:50px;
+    line-height:25px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color:#000;
+    border-bottom:4px solid #fff;
+}
+.img-for-lunbo{
+    width:100%;
+    height:300px;
+}
+.num:before{
+    content:url("images/per-small.png");
+}
+.result-show>div{
+    margin:15px;
+}
+.col-sm-3{
+    text-align: center;
+}
+.result-show{
+    border-left:1px dotted #29b078;
+    text-align:left;
+}
+.this-text-left{
+    text-align:left;
+}
+.ahead-img{
+    width:50px;height:50px;
+}
+.this-flex-to-three-parls{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:15px 0;
+}
+.after-img{
+    width:20px;height:20px;
+}
+h3,h4{
+    text-align: center;
+    font-weight: bold;
+}
+.dots{
+    display:flex;
+    justify-content: center;
+    margin:1vw 0;
+}
+.dots>div{
+    width:10px;height:10px;
+    border-radius: 50%;
+    border:1px solid darkgrey;
+    margin:.5vw;
+}
+.dots-1{
+    background-color:#29b078 ;
+}
+.this-for-showing-coops{
+    /*background:url("images/ali.png") center center no-repeat;*/
+    /*background-size:100%;*/
+    /*display:inline-block;*/
+    /*border:1px solid red;*/
+}
+.sleeping-li{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sleeping-li>li>a{
+    text-decoration: none;
+    color:grey;
+}
+.sleeping-li>li{
+    height:20px;
+    line-height:10px;
+}
+.sleeping-li>li:hover{
+    border-bottom:2px solid #29b078;
+}
+.bot-nav{
+    background-color: #29b078;
+    color:white;
+}
+.this-the-last-bottom{
+    border-top:1px solid white;
+    text-align: center;
+}
+
+.bot-nav-inner{
+    text-decoration: none;
+    color:white;
+    height:20px;
+    line-height:10px;
+    margin:5px;
+    margin-left:0;
+}
+.bot-nav-inner:hover{
+    color:white;
+}
+.has-right-border{
+    border-right:1px solid white;
+}

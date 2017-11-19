@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DHdemo</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+</head>
+<body>
+<ul class="nav justify-content-end" style="margin-right:20vw;">
+    <li class="nav-item">
+        <a class="nav-link" href="#">第一链接</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">第二练级</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">第三联交</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">第四连击</a>
+    </li>
+</ul>
+
+<hr>
+<ul class="nav flex-column ">
+    <li class="nav-item">
+        <a class="nav-link" href="#">kkk</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link">kkk</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link">kkk</a>
+    </li>
+</ul>
+<hr>
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a href="#" class="nav-link">asdf</a>
+    </li>
+    <li class="nav-item">
+        <a href="#" class="nav-link">asdf</a>
+    </li>
+    <li class="nav-item">
+        <a href="#" class="nav-link active">uoio</a>
+    </li>
+    <li class="nav-item">
+        <a href="#" class="nav-link disabled">123456</a>
+    </li>
+
+</ul>
+<hr>
+<ul class="nav nav-pills nav-justified">
+    <li class="nav-item">
+        <a class="nav-link">这个是一个胶囊</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">这个是一个胶囊</a>
+    </li>
+    <li class="nav-item">
+        <span class="nav-link">这个是一个胶囊</span>
+    </li>
+</ul>
+<hr>
+<ul class="nav nav-pills nav-justified">
+    <li class="dropdown nav-item">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+            一个下拉菜单
+            <ul class="dropdown-menu">
+                <li class="dropdown-item">aaa</li>
+                <li class="dropdown-item">aaa</li>
+                <li class="dropdown-item">aaa</li>
+                <li class="dropdown-item">aaa</li>
+            </ul>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="#" class="nav-link">不是一个下拉菜单</a>
+    </li>
+</ul>
+<hr>
+选项卡下拉菜单
+<ul class="nav nav-tabs">
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+            选项卡下拉菜单
+            <ul class="dropdown-menu">
+                <li class="dropdown-item">xia</li>
+                <li class="dropdown-item">la</li>
+                <li class="dropdown-item">cai</li>
+                <li class="dropdown-item">dan</li>
+            </ul>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="#" class="nav-link active">不是</a>
+    </li>
+    <li class="nav-item">
+        <a href="#" class="nav-link">不是</a>
+    </li>
+</ul>
+<hr>
+动态选项卡
+<ul class="nav nav-pills" role="tablist">
+    <li class="nav-item">
+        <!--作为门面的a元素-->
+        <a href="#ok" class="nav-link" data-toggle="pill">
+            ok元素
+        </a>
+        <a href="#false" class="nav-link" data-toggle="pill">
+            false元素
+        </a>
+    </li>
+</ul>
+<!--被链接的元素-->
+<div class="tab-content">
+    <div class="tab-pane fade" id="ok">
+        OK的话显示这个
+    </div>
+    <div class="tab-pane container" id="false">
+        false的话显示这个
+    </div>
+</div>
+</body>
+</html>
